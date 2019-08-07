@@ -4,7 +4,7 @@ from keras.models import model_from_json
 from keras.preprocessing.sequence import pad_sequences
 
 model_path = os.path.join('../', 'model')
-MAX_SEQUENCE_LENGTH=50
+MAX_SEQUENCE_LENGTH=100
 
 # A singleton for holding the model. This simply loads the model and holds it.
 # It has a predict function that does a prediction based on the model and the input data.
