@@ -58,3 +58,7 @@ You might want to better read: [Use Your Own Algorithms or Models with Amazon Sa
 2. Have the model be picked up from `/opt/ml` instead of `./models`. Sagemaker will dump the model files in this directory.
 3. Make the Flask app run with WSGI, behind Nginx, and be initialized from a script named `server`. For a similar example, check out: [SciKit bring your own](https://github.com/awslabs/amazon-sagemaker-examples/tree/master/advanced_functionality/scikit_bring_your_own/container/decision_trees)
 4. Add a Dockerfile for setup and push to [AWS ECR](https://aws.amazon.com/ecr/)
+
+
+## Other Things I "Borrowed"
+* [Sentiment Analysis using 1D Convolutional Neural Networks in Keras](https://medium.com/@romannempyre/sentiment-analysis-using-1d-convolutional-neural-networks-part-1-f8b6316489a2)
